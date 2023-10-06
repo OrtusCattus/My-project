@@ -87,51 +87,12 @@ nav{
     padding: 8px;
     text-align: left;
 }
-#toggleTheme{
-    background-color: black;
-    color: white;
-}
-body.dark-mode {
-    background-color: #333;
-    color: #fff;
-}
-.dark-theme {
-  background-color: #333;
-  color: #fff;
-}
-#theme-toggle{
-
-  display: block;
-  width: 50px;
-  flex: 1;
-  background-color: black;
-  color: white;
-}
-
-.grafico.dark-mode {
-    background-color: #444;
-}
-.quadrado.dark-mode {
-    background-color: #444;
-}
-
-.tabelaPedidos1.dark-mode{
-    background-color: #444;
-}
-
-#tabelaPedidos.dark-mode {
-    background-color: #555;
-}
-
-.quadrado.dark-mode {
-    background-color: #666;
-}
 
 /* Resto dos estilos conforme necessário */
 
 /* Estilos para telas menores (responsividade) */
-@media (max-width: 768px) {
-    .painel-administrativo {
+@media (max-width: 1024px) {
+    .home {
         flex-direction: column; /* Altera a direção dos elementos para empilhamento */
         text-align: center; /* Centraliza o texto no cabeçalho */
     }
