@@ -95,14 +95,20 @@ nav{
     .home {
         flex-direction: column; /* Altera a direção dos elementos para empilhamento */
         text-align: center; /* Centraliza o texto no cabeçalho */
+        display: flex;
     }
-
+    .painel-administrativo{
+        flex-direction: column;
+    }
     .theme-toggle {
         margin-top: 10px; /* Espaçamento entre o ícone de tema e o título */
     }
 
     .logo img {
         margin-bottom: 10px; /* Espaçamento entre o logotipo e o título */
+    }
+    .tela-inicial{
+        flex-direction: column;
     }
 
     .opcoes {
@@ -113,5 +119,14 @@ nav{
     .opcao {
         margin-right: 0; /* Remove a margem direita das opções de menu */
         margin-bottom: 10px; /* Espaçamento entre as opções de menu */
+    }
+
+    .grafico{
+        flex-direction: column; /* Altera a direção dos elementos para empilhamento */
+        width: 500px;
+    }
+    .tabelaPedidos1{
+        flex-direction: column;
+        margin-top: 800px;
     }
 }
