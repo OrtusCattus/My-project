@@ -8,7 +8,6 @@ body {
 
 .tela-inicial{
     display: flex;
-    height: 250px;
 }
 .container {
     max-width: 1200px;
@@ -23,9 +22,6 @@ body {
     padding:  10px;
     display: flex;
     align-items: center;
-}
-nav{
-    margin: 100px auto auto auto;
 }
 
 .logo img {
@@ -49,6 +45,7 @@ nav{
 }
 
 .grafico{
+    margin-bottom: -1000000px;
     margin-left: 80px;
     margin-top: 50px;
     width: 45vw;
@@ -72,13 +69,17 @@ nav{
     margin-bottom: 20px;
     width: 160px;
     margin-left: 100px;
+    text-align: center;
   
+}
+.titulo2{
+    margin-top: 180px; 
+    text-align: center;
 }
 #tabelaPedidos {
     border-collapse: collapse;
     width: 97%;
     background-color: #FFFFFF;
-    margin-bottom: 140px;
     margin-right: 150px;
     margin-left: 20px;    
   }
@@ -95,6 +96,7 @@ nav{
     .home {
         flex-direction: column; /* Altera a direção dos elementos para empilhamento */
         text-align: center; /* Centraliza o texto no cabeçalho */
+        padding: auto;
         display: flex;
     }
     .painel-administrativo{
@@ -102,6 +104,9 @@ nav{
     }
     .theme-toggle {
         margin-top: 10px; /* Espaçamento entre o ícone de tema e o título */
+    }
+    .Dados{
+        margin-left: 50vw ;
     }
 
     .logo img {
@@ -123,11 +128,17 @@ nav{
 
     .grafico{
         flex-direction: column; /* Altera a direção dos elementos para empilhamento */
-        width: 500px;
+        width: 80vw;
+        height: 90vw;
     }
     .tabelaPedidos1{
         flex-direction: column;
-        margin-top: 800px;
+        padding-top: 170vw;
+    }
+    .Visão-Geral{
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
