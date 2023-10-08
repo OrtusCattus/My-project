@@ -102,7 +102,7 @@ body {
 /* Resto dos estilos conforme necessário */
 
 /* Estilos para telas menores (responsividade) */
-@media (max-width: 1080px) {
+@media (max-width: 650px) {
     .home {
         flex-direction: column; /* Altera a direção dos elementos para empilhamento */
         text-align: center; /* Centraliza o texto no cabeçalho */
