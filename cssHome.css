@@ -145,7 +145,7 @@ body {
     .tabelaPedidos1{
         flex-direction: column;
         margin-right: 1000px;
-        margin-top: 70px;
+        margin-top: -70px;
     }
     .titulo{
         margin-top: -20px;
