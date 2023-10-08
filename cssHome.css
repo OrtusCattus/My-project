@@ -30,11 +30,15 @@ body {
     margin-right: 10px;
 }
 
-.titulo h1 {
-    font-size: 24px;
-    margin-left: 100px;
-    width: 200px;
-    margin: 0;
+.titulo{
+    margin-top: -25px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+#painel{
+    margin-left: 30vw;
 }
 
 .opcoes {
@@ -45,7 +49,7 @@ body {
 }
 
 .grafico{
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 50px;
     width: 45vw;
     height: 25vw;
@@ -98,7 +102,7 @@ body {
 /* Resto dos estilos conforme necessário */
 
 /* Estilos para telas menores (responsividade) */
-@media (max-width: 1024px) {
+@media (max-width: 680px) {
     .home {
         flex-direction: column; /* Altera a direção dos elementos para empilhamento */
         text-align: center; /* Centraliza o texto no cabeçalho */
@@ -139,7 +143,7 @@ body {
     }
     .tabelaPedidos1{
         flex-direction: column;
-        
+        margin-top: 70px;
     }
     
 }
